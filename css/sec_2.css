@@ -1,0 +1,194 @@
+section.sec_2 {
+    position: relative;
+    padding: 5px 0;
+    width: 200%;
+    display: flex;
+    flex-direction: row;
+    transition: all 250ms ease-in-out;
+}
+
+section.sec_2>section {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+section.sec_2>section>div {
+    padding: 5px 0;
+    width: 95%;
+}
+
+section.sec_2>section>div>div {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+section.sec_2>section>div>div>p {
+    font-size: 24px;
+    color: #404040;
+}
+
+section.sec_2>section>div>div>form {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+section.sec_2>section>div>div>form>p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+section.sec_2>section>div>div>form>p>input {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    border: none;
+    margin: 5px 0;
+    border-bottom: 1px solid #888;
+}
+
+section.sec_2>section>div>div>form>p:last-child>input {
+    border-radius: 2px;
+    background: #df0000;
+    color: #ffffff;
+    margin: 20px 0;
+    cursor: pointer;
+    border-bottom: none;
+}
+
+section.sec_2>section>div>div+div {
+    padding: 5px 0;
+}
+
+section.sec_2>section>div+div {
+    padding: 5px 0;
+}
+
+section.sec_2>section>div+div>p {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+section.sec_2>section>div+div>p>button#lg_btn {
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background: #df0000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+section.sec_2>section+section {
+    position: relative;
+    padding: 5px 0;
+    width: 100%;
+}
+
+section.sec_2>section+section>div {
+    width: 95%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+section.sec_2>section+section>div>button#_back {
+    position: relative;
+    padding: 5px;
+    background: #df0000;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 2px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+section.sec_2>section+section>div+div {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+section.sec_2>section+section>div+div>p {
+    color: #404040;
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+section.sec_2>section+section>div+div>form {
+    width: 100%;
+}
+
+section.sec_2>section+section>div+div>form>p {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+section.sec_2>section+section>div+div>form>p>input {
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid #888;
+}
+
+section.sec_2>section+section>div+div>form>p:last-child>input {
+    border-radius: 2px;
+    background: #df0000;
+    color: #ffffff;
+    cursor: pointer;
+    border-bottom: none;
+    margin: 20px 0;
+}
+
+section.sec_2>section+section>div+div+div>p>a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #df0000;
+}
+
+@media screen and (min-width:370px) {
+
+    section.sec_2>section>div>div>form,
+    section.sec_2>section>div>div>form>p,
+    section.sec_2>section+section>div+div,
+    section.sec_2>section+section>div+div>form {
+        width: 60%;
+    }
+}
