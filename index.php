@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/all_with_body.css">
     <link rel="stylesheet" href="css/sec_1.css">
     <link rel="stylesheet" href="css/sec_2.css">
-    <!--script src="https://kit.fontawesome.com/fac1365f02.js" crossorigin="anonymous"></!--script-->
+    <!--script src="https://kit.fontawesome.com/fac1365f02.js" crossorigin="anonymous"></script-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/body_1.js"></script>
     <script type="text/javascript" src="js/sec_1.js"></script>
@@ -54,6 +54,7 @@
         <div>
           <p>Login here.</p>
           <form id="lg_n1">
+            <p id="_empty"></p>
             <p><input type="email" name="email" placeholder="Email" required></p>
             <p><input type="password" name="password" placeholder="Password" required></p>
             <p><input type="submit" name="ln_submit" value="Login"></p>
