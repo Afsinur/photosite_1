@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/sec_2.css">
     <!--script src="https://kit.fontawesome.com/fac1365f02.js" crossorigin="anonymous"></!--script-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/body.js"></script>
+    <script type="text/javascript" src="js/body_1.js"></script>
     <script type="text/javascript" src="js/sec_1.js"></script>
     <script type="text/javascript" src="js/sec_2.js"></script>
+    <script type="text/javascript" src="js/sub_sec_2.js"></script>
+    <script type="text/javascript" src="js/sub_sub_sec_2.js"></script>
 </head>
 <body>
 <!-- section 1 (sec_1) is the header part -->
@@ -30,13 +32,14 @@
             <p>Exparience some photos and friends in this short life with Photosite.</p>  
           </div>
           <div>
-            <form action="" method="post">
-              <p><input type="text" name="fst_name" placeholder="First Name" required></p>
-              <p><input type="text" name="lst_name" placeholder="Last Name" required></p>
-              <p><input type="email" name="email" placeholder="Email" required></p>
-              <p><input type="password" name="password" placeholder="Password" required></p>
+            <form id="reg">
+              <p id="_empty"></p>
+              <p><input type="text" name="fst_name" placeholder="First Name(10)" maxlength="10" required></p>
+              <p><input type="text" name="lst_name" placeholder="Last Name(10)" maxlength="10" required></p>
+              <p><input type="email" name="email" placeholder="Email" maxlength="1000" required></p>
+              <p><input type="password" name="password" placeholder="Password" maxlength="1000" required></p>
               <p><input type="password" name="re_password" placeholder="Re-Password" required></p>
-              <p><input type="submit" name="" value="Sign Up"></p>
+              <p><input type="submit" name="submit_reg" value="Sign Up"></p>
             </form>
           </div>
         </div>
@@ -50,10 +53,10 @@
         </div>
         <div>
           <p>Login here.</p>
-          <form action="" method="post">
-            <p><input type="text" name="" placeholder="Email" required></p>
-            <p><input type="password" name="" placeholder="Password" required></p>
-            <p><input type="submit" name="" value="Login"></p>
+          <form id="lg_n1">
+            <p><input type="email" name="email" placeholder="Email" required></p>
+            <p><input type="password" name="password" placeholder="Password" required></p>
+            <p><input type="submit" name="ln_submit" value="Login"></p>
           </form>
         </div>
         <div>
